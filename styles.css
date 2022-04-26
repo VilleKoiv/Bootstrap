@@ -1,14 +1,17 @@
-.col-sm-3 {
-    background-color: rgb(40, 145, 9);
-    
-}
-
-.col-sm-4 {
-    background-color: rgb(50, 173, 13);
-    
-}
-
 img {
-    width: 2600px;
-    height: 950px;
+    width: 1269.5px;
+    height: 600px;
+    padding-left: 140px;
+    padding-right: 120px;
+    padding-top: 10px;
+    background-color: rgb(54, 150, 16);
+    margin-bottom: 0px;
+}
+
+.jumbotron{
+    background-color: rgb(54, 150, 16);
+}
+
+html {
+    background-color: rgb(54, 150, 16);
 }
