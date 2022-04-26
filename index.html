@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Example</title>
+  <title>Suurpetoja</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="styles.css">
@@ -11,32 +11,26 @@
 
     <div class="jumbotron text-center">
         <h1>Suomen suurpetoja</h1>
-        <p>Tietoa Suomen suurpedoista, karhusta, sudesta ja ilveksestä!</p>
+        <p>Tietoa Suomen suurpedoista; karhusta, sudesta ja ilveksestä!</p>
       </div>
       
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-4">
-            <h3>Karhu</h3>
-            <button type="button" onclick="karhu()">Karhu</button>
-            <p>Tietoa karhusta, metsiemme suurimmasta pedosta</p>
+      <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">Tästä pääset tutustumaan eläimiin tarkemmin!<p>
           </div>
-
-          <div class="col-sm-3">
-            <h3>Ilves</h3>
-            <button type="button" onclick="ilves()">Ilves</button>
-            <p>Tietoa ilveksestä, kissapedosta</p>
-
-          </div>
-          <div class="col-sm-4">
-            <h3>Susi</h3>
-            <button type="button" onclick="susi()">Susi</button>
-            <p>Tietoa sudesta, laumaeläimestä</p>
-          </div>
+          <ul class="nav navbar-nav">
+            <li><a href="pages/karhu.html">Karhu</a></li>
+            <li><a href="pages/ilves.html">Ilves</a></li>
+            <li><a href="pages/susi.html">Susi</a></li>
+          </ul>
         </div>
-      </div> 
-      <img src="images/oulu-finland-1437620_960_720.jpg">
+      </nav>
+      
+<img src="images/oulu-finland-1437620_960_720.jpg"> <img src="images/Metsä,_taivas_ja_merikin.jpg">
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
 </body>
 </html>
