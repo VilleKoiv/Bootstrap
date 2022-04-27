@@ -1,0 +1,19 @@
+$primary: rgb(54, 150, 16);
+$secondary: rgb(19, 247, 49);
+$plainblack: black;
+$fontsize: xx-large;
+
+/* TÄSTÄ ALKAA TEHTÄVÄN 5.1 CSS MÄÄRITTELYT */
+
+a[target] {
+    font-size: $fontsize;
+    text-align: center;
+    color: $primary;
+}
+
+p ~ ul {
+    font-size: x-large;
+    padding: 1px;
+    text-align: center;
+    color: $secondary;
+}
